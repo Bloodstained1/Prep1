@@ -1,0 +1,78 @@
+
+#div-negro{
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    margin: 30px 0px 30px 0px;
+    border: black solid;
+    border-top: 1px;
+    border-bottom: 30px;
+    border-right: 20px;
+    border-left: 1px;
+}
+/* Escribí por separado las medidas del borde porque de la otra forma algo no funció bien */
+
+#uno, #dos, #tres{
+    border: solid 3px orange;
+}
+
+#uno{
+display: flex;
+flex-direction: row;
+align-content: center;
+border: solid 3px orange;
+width: auto;
+}
+
+#uno-about{
+    align-self:flex-end;
+}
+
+#dos{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+#tres{
+    display: flex;
+    flex-direction: row;
+    
+    border: solid 3px orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#uno-contact, #dos-contact, #tres-contact{
+    color: white;
+    background-color:rgb(232, 152, 77);
+    font-weight: bold;
+    font-size: 15px;
+    height: 80px;
+}
+
+#uno-careers, #dos-careers, #tres-careers{
+    color: white;
+    background-color: rgb(110, 204, 245);
+    font-weight: bold;
+    font-size: 15px;
+    height: 80px;
+}
+
+#uno-about, #dos-about, #tres-about{
+    color: white;
+    background-color: rgb(123, 219, 129);
+    font-weight: bold;
+    font-size: 15px;
+    height: 80px;
+}
